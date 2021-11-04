@@ -1,0 +1,13 @@
+INFO:root:Введите порт, который хотите открыть: 1222
+ERROR:root:Данный порт уже занят!
+Traceback (most recent call last):
+  File "C:/Users/Елена/PycharmProjects/Практикум/server.py", line 15, in check_port
+    sock.bind(('', port))
+OSError: [WinError 10048] Обычно разрешается только одно использование адреса сокета (протокол/сетевой адрес/порт)
+INFO:root:Новый порт: 16905
+INFO:root:Слушаю порт: 16905
+INFO:root:('127.0.0.1', 63269)
+INFO:root:Message from Pasha: 3
+INFO:root:('127.0.0.1', 63269)
+INFO:root:Message from Pasha: 1
+INFO:root:('127.0.0.1', 63269)
