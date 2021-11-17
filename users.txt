@@ -1,2 +1,0 @@
-pasha;12345;188.255.11.118
-Pasha;123;localhost
